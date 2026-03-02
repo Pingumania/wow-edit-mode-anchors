@@ -1,0 +1,18 @@
+package-as: EditModeAnchors
+
+ignore:
+  - .gitignore
+  - .gitmodules
+  - .pkgmeta
+  - LICENSE
+  - README.md
+  - RELEASE_NOTES.md
+
+externals:
+  Libs/LibEditMode:
+    url: https://github.com/p3lim-wow/LibEditMode.git
+    tag: 15
+
+manual-changelog:
+  filename: RELEASE_NOTES.md
+  markup-type: markdown
